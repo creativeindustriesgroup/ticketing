@@ -273,9 +273,6 @@ export const OrderSummaryAndProducts = () => {
 
                 {!!event?.settings?.post_checkout_message && <PostCheckoutMessage message={event.settings.post_checkout_message}/>}
 
-                <h1 className={classes.heading}>{t`Event Details`}</h1>
-                <EventDetails event={event}/>
-
                 {(order?.attendees && order.attendees.length > 0) && (
                     <Group justify="space-between" align="center">
                         <h1 className={classes.heading}>{t`Guests`}</h1>
