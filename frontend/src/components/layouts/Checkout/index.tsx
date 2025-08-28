@@ -106,7 +106,6 @@ const Checkout = () => {
                                                 hideShareButtonText={isMobile}
                                             />
 
-                                            <AddToEventCalendarButton event={event}/>
 
                                             {orderHasAttendees && (
                                                 <Tooltip label={t`Print Tickets`}>

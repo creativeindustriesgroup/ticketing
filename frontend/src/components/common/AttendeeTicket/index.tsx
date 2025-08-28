@@ -45,9 +45,10 @@ export const AttendeeTicket = ({attendee, product, event, hideButtons = false}: 
                     <div className={classes.eventName}>
                         {event?.title}
                     </div>
-                    <div className={classes.eventDate}>
+                    {/* <div className={classes.eventDate}>
                         {prettyDate(event.start_date, event.timezone)}
-                    </div>
+                    </div> */}
+                    {/* Temporarily removed until support for recurring events is created */}
                 </div>
             </div>
             <div className={classes.qrCode}>
